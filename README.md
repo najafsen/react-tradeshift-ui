@@ -33,6 +33,14 @@ $ open http://localhost:9009
 
 will open the Storybook with hot module reloading enabled.
 
+**Troubleshooting**: If you are unable to run `npm test`, because of `EMFILE` errors, try installing watchman:
+```
+sudo chown -R $(whoami) /usr/local # If you migrated a previous homebrew to el capitan
+brew update
+brew install watchman
+```
+Alternatively, try running tests with `npm test -- --no-watchman`.
+
 ### Release
 Any code pushed to master will be automatically released to `npm` with an appropriate semantic version.
 Releases are handled automatically by Travis-CI via [semantic-release](https://github.com/semantic-release/semantic-release)
