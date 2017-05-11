@@ -28,7 +28,8 @@ Development with minimal setup via [Storybook](https://github.com/storybooks/sto
 ```bash
 $ npm install
 $ npm start
-$ open http://localhost:9009
+$ open http://localhost:9009 # Open storybook
+$ npm test # Run jest specs in interactive mode
 ```
 
 will open the Storybook with hot module reloading enabled.
