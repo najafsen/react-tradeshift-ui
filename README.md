@@ -48,4 +48,12 @@ Releases are handled automatically by Travis-CI via [semantic-release](https://g
 and [commitizen](http://commitizen.github.io/cz-cli/) commit message conventions.
 
 ## License
-ISC. Copyright (c) 2017, Tradeshift.
+
+* You can always create forks on GitHub, submit Issues and Pull Requests.
+* You can only use Tradeshift-UI to make apps on a Tradeshift platform, e.g. tradeshift.com.
+* You can fix a bug until the bugfix is deployed by Tradeshift.
+* You can host Tradeshift UI yourself.
+* If you want to make a bigger change or just want to talk with us, reach out to our team here on GitHub.
+
+You can read the actual license agreement in the [LICENSE.md](https://github.com/Tradeshift/tradeshift-ui/blob/master/LICENSE.md).
+
