@@ -6,6 +6,9 @@
 	"env": {
 		"jest/globals": true
 	},
+	"globals": {
+		"ts": false
+	},
 	"rules": {
 		"arrow-parens": [
 			"error",
