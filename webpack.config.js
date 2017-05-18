@@ -53,7 +53,7 @@ const config = {
 				test: /\.css$/,
 				loader: ExtractTextPlugin.extract({
 					fallback: 'style-loader',
-					use: 'css-loader?importLoaders=1!postcss'
+					use: 'css-loader'
 				})
 				// Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
 			},
@@ -79,7 +79,7 @@ const config = {
 		// This helps ensure the builds are consistent if source hasn't changed:
 		new webpack.optimize.OccurrenceOrderPlugin(),
 		// Note: this won't work without ExtractTextPlugin.extract(..) in `loaders`.
-		new ExtractTextPlugin('dist/[name].css')
+		new ExtractTextPlugin('./dist/[name].css')
 	],
 	// Some libraries import Node modules but don't use them in the browser.
 	// Tell Webpack to provide empty mocks for them so importing them works.
