@@ -11,7 +11,13 @@ describe('Aside', () => {
 
 			// Mock the spirit:
 			const spirit = {};
-			wrapper.instance().onRef({ spirit });
+			window.ts = {
+				ui: {
+					get: (ref, cb) => cb(spirit)
+				}
+			};
+
+			wrapper.instance().onRef({});
 			expect(spirit.onclose()).toEqual(false);
 
 			// Set callback to close the aside
