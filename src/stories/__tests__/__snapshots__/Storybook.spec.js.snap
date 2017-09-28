@@ -166,6 +166,14 @@ exports[`StatusBar Show message 1`] = `null`;
 exports[`TsLogo Basic usage 1`] = `
 <svg
   className="ts-logo"
+  style={
+    Object {
+      "display": "inline-block",
+      "height": "22px",
+      "opacity": 0.1,
+      "width": "33px",
+    }
+  }
   viewBox="0 0 161 109"
 >
   <path
