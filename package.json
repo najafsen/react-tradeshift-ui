@@ -1,11 +1,10 @@
 {
 	"name": "react-tradeshift-ui",
 	"version": "0.0.0-semantically-released",
-	"main": "dist/components.js",
-	"module": "src/components/index.js",
+	"main": "dist/index.js",
+	"files": ["dist"],
 	"license": "SEE LICENSE IN LICENSE.md",
 	"scripts": {
-		"prepublish": "npm run build",
 		"build-storybook": "build-storybook",
 		"start": "start-storybook -p 9009",
 		"test": "tradeshift-scripts test",
@@ -32,7 +31,7 @@
 		"react": "^15.5.4",
 		"react-dom": "^15.5.4",
 		"react-test-renderer": "^15.5.4",
-		"tradeshift-scripts": "^1.1.0"
+		"tradeshift-scripts": "^1.2.0"
 	},
 	"dependencies": {
 		"react-portal": "^3.1.0"
