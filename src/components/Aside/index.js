@@ -10,6 +10,7 @@ class Aside extends Component {
 		this.onRef = this.onRef.bind(this);
 		this.onOpen = this.onOpen.bind(this);
 		this.onClose = this.onClose.bind(this);
+		this.wrapContent = this.wrapContent.bind(this);
 
 		// Sync open flag for onclose / onopen callbacks
 		this.isOpen = props.isOpen;
@@ -42,6 +43,12 @@ class Aside extends Component {
 		});
 	}
 
+	wrapContent(nodes) {
+		const children = React.Children.toArray(nodes);
+		const wrappedTabs = children.every(node => node.props['data-ts'] === 'Panel');
+		return nodes && wrappedTabs ? nodes : <div data-ts="Panel">{nodes}</div>;
+	}
+
 	render() {
 		const busyMessage = this.props.isLoading ? this.props.loadingMessage : undefined;
 		const asideProps = {
@@ -49,12 +56,12 @@ class Aside extends Component {
 			'data-ts.open': this.props.isOpen,
 			'data-ts.busy': busyMessage
 		};
+
+		const content = this.wrapContent(this.props.children);
 		return (
 			<Portal isOpened>
 				<aside data-ts="Aside" {...asideProps} ref={this.onRef}>
-					<div data-ts="Panel">
-						{this.props.children}
-					</div>
+					{content}
 				</aside>
 			</Portal>
 		);
