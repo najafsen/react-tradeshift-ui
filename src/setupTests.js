@@ -12,6 +12,20 @@ window.ts = {
 			buttons: jest.fn(),
 			show: jest.fn(),
 			hide: jest.fn()
+		},
+		Footer: {
+			collabbutton: jest.fn(),
+			buttons: jest.fn()
+		},
+		TopBar: {
+			blue: jest.fn(),
+			dark: jest.fn(),
+			green: jest.fn(),
+			purple: jest.fn(),
+			title: jest.fn(),
+			buttons: jest.fn(),
+			show: jest.fn(),
+			hide: jest.fn()
 		}
 	}
 };
