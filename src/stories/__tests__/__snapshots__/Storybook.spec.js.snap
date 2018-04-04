@@ -55,6 +55,10 @@ exports[`Aside Controlled mode 1`] = `
 </portal>
 `;
 
+exports[`Footer Open collaboration 1`] = `null`;
+
+exports[`Footer Show buttons 1`] = `null`;
+
 exports[`Form Basic structure 1`] = `
 <form
   data-ts="Form"
@@ -111,6 +115,12 @@ exports[`Form FormSwitch should be used in a form 1`] = `
   </fieldset>
 </form>
 `;
+
+exports[`Header Change the color 1`] = `null`;
+
+exports[`Header Change the title 1`] = `null`;
+
+exports[`Header Show buttons 1`] = `null`;
 
 exports[`Menu Basic usage 1`] = `
 <menu
@@ -216,11 +226,11 @@ exports[`Modal Controlled mode w/ buttons 1`] = `
 
 exports[`Note Basic usage 1`] = `null`;
 
-exports[`StatusBar Hide bar 1`] = `null`;
+exports[`StatusBar (deprecated) Hide bar 1`] = `null`;
 
-exports[`StatusBar Show buttons 1`] = `null`;
+exports[`StatusBar (deprecated) Show buttons 1`] = `null`;
 
-exports[`StatusBar Show message 1`] = `null`;
+exports[`StatusBar (deprecated) Show message 1`] = `null`;
 
 exports[`TsLogo Basic usage 1`] = `
 <svg

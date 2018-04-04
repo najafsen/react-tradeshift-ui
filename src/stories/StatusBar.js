@@ -5,7 +5,7 @@ import _ from 'lodash';
 
 import { StatusBar } from '../components';
 
-const stories = storiesOf('StatusBar', module);
+const stories = storiesOf('StatusBar (deprecated)', module);
 
 stories.addWithInfo(
 	'Show buttons',

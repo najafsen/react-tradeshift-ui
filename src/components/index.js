@@ -7,3 +7,5 @@ export { default as StatusBar } from './StatusBar';
 export { default as Form } from './Form';
 export { default as FormSwitch } from './FormSwitch';
 export { default as TsLogo } from './TsLogo';
+export { default as Header } from './Header';
+export { default as Footer } from './Footer';

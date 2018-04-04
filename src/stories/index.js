@@ -1,5 +1,7 @@
 import './Aside';
 import './Form';
+import './Footer';
+import './Header';
 import './Menu';
 import './Modal';
 import './Note';
