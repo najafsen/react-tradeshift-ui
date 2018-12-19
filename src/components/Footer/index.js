@@ -7,10 +7,7 @@ class Footer extends Component {
 			const footer = window.ts.ui.Footer;
 
 			if (onOpenCollaboration) {
-				footer.collabbutton({
-					badge,
-					onclick: onOpenCollaboration
-				});
+				footer.collabbutton(onOpenCollaboration, badge);
 			}
 			footer.buttons(buttons);
 		});
