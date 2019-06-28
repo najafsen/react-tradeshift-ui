@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import Note from './';
+import Note from '.';
 
 describe('Note', () => {
 	// Add specific tests for ui-spirit related functions
@@ -23,7 +23,7 @@ describe('Note', () => {
 			const wrapper = mount(<Note text="Foo" />);
 			const component = wrapper.instance();
 			expect(component.note).toBeTruthy();
-			const note = component.note;
+			const { note } = component;
 			note.close = jest.fn();
 			wrapper.unmount();
 			expect(note.close).toHaveBeenCalled();

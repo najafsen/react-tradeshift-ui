@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Modal from './';
+import Modal from '.';
 
 describe('Modal', () => {
 	// Add specific tests for ui-spirit related functions

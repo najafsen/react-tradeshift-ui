@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import StatusBar from './';
+import StatusBar from '.';
 
 describe('StatusBar', () => {
 	let wrapper;

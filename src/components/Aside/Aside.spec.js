@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Aside from './';
+import Aside from '.';
 
 describe('Aside', () => {
 	// Add specific tests for ui-spirit related functions
