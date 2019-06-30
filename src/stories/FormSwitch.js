@@ -7,6 +7,7 @@ import { Form, FormSwitch } from '../components';
 const stories = storiesOf('Form', module);
 
 stories.add(
+	'FormSwitch',
 	() => (
 		<Form>
 			<fieldset>

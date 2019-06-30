@@ -1,11 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text, number } from '@storybook/addon-knobs';
-import { select } from '@storybook/addon-knobs/react';
-
+import { text, number, select } from '@storybook/addon-knobs';
 import _ from 'lodash';
-
 import { Header } from '../components';
 
 const stories = storiesOf('Header', module);

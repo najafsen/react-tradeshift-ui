@@ -24,7 +24,8 @@
 		"react/jsx-indent-props": ["error", "tab"],
 		"react/jsx-indent": ["error", "tab"],
 		"react/destructuring-assignment":"off",
-		"no-param-reassign": "off"
+		"no-param-reassign": "off",
+		"react/forbid-prop-types": ["error", {"forbid": ["any"]}]
 	},
 	"settings": {
 		"import/core-modules": [
