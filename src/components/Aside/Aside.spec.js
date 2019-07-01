@@ -9,7 +9,7 @@ describe('Aside', () => {
 	// Add specific tests for ui-spirit related functions
 	describe('spirit interaction', () => {
 		it('respects isOpen in controlled mode', () => {
-			const wrapper = shallow(<Aside />);
+			const wrapper = shallow(<Aside isOpen />);
 
 			// Mock the spirit:
 			const spirit = {};
@@ -20,7 +20,7 @@ describe('Aside', () => {
 			};
 
 			wrapper.instance().onRef({});
-			// expect(spirit.onclose()).toEqual(false);
+			expect(spirit.onclose()).toEqual(false);
 
 			// Set callback to close the aside
 			wrapper.setProps({
@@ -28,7 +28,7 @@ describe('Aside', () => {
 					wrapper.setProps({ isOpen: false });
 				}
 			});
-			// expect(spirit.onclose()).toEqual(true);
+			expect(spirit.onclose()).toEqual(true);
 		});
 	});
 });
