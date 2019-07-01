@@ -14,7 +14,7 @@
 				"devDependencies": true
 			}
 		],
-		"indent": ["error", "tab"],
+		"indent": ["off", "tab"],
 		"jest/no-disabled-tests": "warn",
 		"jest/no-focused-tests": "error",
 		"jest/no-identical-title": "error",
@@ -25,7 +25,9 @@
 		"react/jsx-indent": ["error", "tab"],
 		"react/destructuring-assignment":"off",
 		"no-param-reassign": "off",
-		"react/forbid-prop-types": ["error", {"forbid": ["any"]}]
+		"react/forbid-prop-types": ["error", {"forbid": ["any"]}],
+		"object-curly-newline":"off",
+		"operator-linebreak":"off"
 	},
 	"settings": {
 		"import/core-modules": [
