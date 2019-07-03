@@ -230,6 +230,8 @@ exports[`Modal Controlled mode with buttons 1`] = `
 
 exports[`Note Basic usage 1`] = `null`;
 
+exports[`Spinner Basic usage 1`] = `null`;
+
 exports[`StatusBar (deprecated) Hide bar 1`] = `null`;
 
 exports[`StatusBar (deprecated) Show buttons 1`] = `null`;
