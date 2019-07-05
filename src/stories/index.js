@@ -10,3 +10,5 @@ import './FormSwitch';
 import './TsLogo';
 import './Spinner';
 import './Table';
+import './Tooltip';
+import './Tag';
