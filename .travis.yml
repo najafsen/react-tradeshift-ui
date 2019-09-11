@@ -10,7 +10,7 @@ script:
   - npm test -- --coverage --collectCoverageFrom=src/components/**/*.js
 after_success:
   - npm run report-coverage
-  - npm run semantic-release
+  - npx semantic-release
   - npm run build-storybook
 branches:
   except:

@@ -14,7 +14,6 @@
     "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
     "prettier": "prettier --write --use-tabs --single-quote --print-width 100 --color src",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
     "precommit": "lint-staged",
     "commit": "git-cz",
