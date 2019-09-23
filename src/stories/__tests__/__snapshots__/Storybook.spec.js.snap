@@ -300,6 +300,8 @@ exports[`StatusBar (deprecated) Show message 1`] = `null`;
 
 exports[`Table Basic usage 1`] = `null`;
 
+exports[`Table Linkable table element 1`] = `null`;
+
 exports[`Tag Label-Text 1`] = `
 <figure
   data-ts="Tag"
