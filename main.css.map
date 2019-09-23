@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","sources":["webpack:///TsLogo.css"],"sourcesContent":[".ts-logo {\n\tdisplay: inline-block;\n\twidth: 33px;\n\theight: 22px;\n\topacity: 0.1;\n}\n"],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;;","sourceRoot":""}
