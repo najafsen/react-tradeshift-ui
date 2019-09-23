@@ -10,15 +10,11 @@ const Table = props => {
 			selectable && table.selectable();
 			table.cols(cols);
 			table.rows(rows);
-			if (!_.isNil(pager) && pager.pages > 1) {
+			if (pager.pages > 1) {
 				table.pager(pager);
 			}
-			if (!_.isNil(onbutton)) {
-				table.onbutton = onbutton;
-			}
-			if (!_.isNil(linkable)) {
-				table.linkable = linkable;
-			}
+			table.onbutton = onbutton;
+			table.linkable(linkable);
 		});
 	};
 
@@ -35,7 +31,7 @@ const Table = props => {
 Table.defaultProps = {
 	onbutton: () => {},
 	linkable: () => {},
-	pager: {},
+	pager: { pages: 0, page: 0, onselect: () => {} },
 	className: '',
 	selectable: false,
 	explode: false
