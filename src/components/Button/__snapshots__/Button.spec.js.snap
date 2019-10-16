@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly 1`] = `
+<button
+  data-ts="Button"
+  data-ts.busy={false}
+  type="button"
+>
+  Default button
+</button>
+`;
+
+exports[`Button should render correctly having className 1`] = `
+<button
+  className="ts-primary"
+  data-ts="Button"
+  data-ts.busy={false}
+  type="button"
+>
+  Default button
+</button>
+`;

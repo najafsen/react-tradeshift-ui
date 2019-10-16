@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttons should render correctly 1`] = `
+<menu
+  data-ts="Buttons"
+>
+  <li
+    key="short_id_1"
+  >
+    <button
+      type="button"
+    >
+      <span>
+        Button One
+      </span>
+    </button>
+  </li>
+  <li
+    key="short_id_2"
+  >
+    <button
+      type="button"
+    >
+      <span>
+        Button Two
+      </span>
+    </button>
+  </li>
+</menu>
+`;

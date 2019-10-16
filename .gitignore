@@ -3,3 +3,14 @@ coverage
 dist
 .opt-in
 .opt-out
+
+
+## IDE files
+*.iml
+*~
+*.orig
+*sublime-*
+.idea
+.settings*
+.doclum
+.vscode

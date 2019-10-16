@@ -14,3 +14,5 @@ export { default as Spinner } from './Spinner';
 export { default as Table } from './Table';
 export { default as Tooltip } from './Tooltip';
 export { default as Tag } from './Tag';
+export { default as Button } from './Button';
+export { default as Buttons } from './Buttons';

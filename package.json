@@ -26,6 +26,11 @@
       "git add"
     ]
   },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
@@ -54,6 +59,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.2",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jest": "^22.7.1",
@@ -79,7 +85,8 @@
     "@types/classnames": "2.2.8",
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
-    "react-portal": "^4.2.0"
+    "react-portal": "^4.2.0",
+    "shortid": "^2.2.15"
   },
   "peerDependencies": {
     "react": "^16.8.6",
