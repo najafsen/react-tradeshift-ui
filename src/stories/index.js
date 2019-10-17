@@ -13,3 +13,5 @@ import './Spinner';
 import './Table';
 import './Tooltip';
 import './Tag';
+import './Button';
+import './Buttons';

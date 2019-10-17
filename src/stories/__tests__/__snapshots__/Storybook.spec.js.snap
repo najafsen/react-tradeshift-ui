@@ -57,6 +57,147 @@ exports[`Aside Controlled mode 1`] = `
 </portal>
 `;
 
+exports[`Button Basic structure 1`] = `
+<button
+  data-ts="Button"
+  data-ts.busy={false}
+  type="button"
+>
+  <span>
+    Default Button
+  </span>
+</button>
+`;
+
+exports[`Button Busy button 1`] = `
+<button
+  className="ts-primary"
+  data-ts="Button"
+  data-ts.busy={true}
+  type="button"
+>
+  <span>
+    Busy Button
+  </span>
+</button>
+`;
+
+exports[`Button Icon button 1`] = `
+<button
+  className="ts-primary"
+  data-ts="Button"
+  data-ts.busy={false}
+  type="button"
+>
+  <i
+    className="ts-icon-arrowright"
+  />
+</button>
+`;
+
+exports[`Button Mirco button 1`] = `
+<button
+  className="ts-primary ts-micro"
+  data-ts="Button"
+  data-ts.busy={false}
+  type="button"
+>
+  <span>
+    Micro Button
+  </span>
+</button>
+`;
+
+exports[`Button Primary button 1`] = `
+<button
+  className="ts-primary"
+  data-ts="Button"
+  data-ts.busy={false}
+  type="button"
+>
+  <span>
+    Primary Button
+  </span>
+</button>
+`;
+
+exports[`Button Secondary button 1`] = `
+<button
+  className="ts-secondary"
+  data-ts="Button"
+  data-ts.busy={false}
+  type="button"
+>
+  <span>
+    Secondary Button
+  </span>
+</button>
+`;
+
+exports[`Button Tertiary button 1`] = `
+<button
+  className="ts-tertiary"
+  data-ts="Button"
+  data-ts.busy={false}
+  type="button"
+>
+  <span>
+    Tertiary Button
+  </span>
+</button>
+`;
+
+exports[`Buttons Basic structure 1`] = `
+<menu
+  data-ts="Buttons"
+>
+  <li>
+    <button
+      type="button"
+    >
+      <span>
+        Button One
+      </span>
+    </button>
+  </li>
+  <li>
+    <button
+      type="button"
+    >
+      <span>
+        Button Two
+      </span>
+    </button>
+  </li>
+</menu>
+`;
+
+exports[`Buttons Joined buttons 1`] = `
+<menu
+  className="ts-t-t ts-join"
+  data-ts="Buttons"
+>
+  <li>
+    <button
+      type="button"
+    >
+      <span>
+        Button One
+      </span>
+    </button>
+  </li>
+  <li>
+    <button
+      type="button"
+    >
+      <span>
+        Button Two
+      </span>
+    </button>
+  </li>
+</menu>
+`;
+
 exports[`Footer Add notification badge 1`] = `null`;
 
 exports[`Footer Open collaboration 1`] = `null`;
