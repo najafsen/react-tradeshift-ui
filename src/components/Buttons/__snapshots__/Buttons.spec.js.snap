@@ -4,9 +4,7 @@ exports[`Buttons should render correctly 1`] = `
 <menu
   data-ts="Buttons"
 >
-  <li
-    key="short_id_1"
-  >
+  <li>
     <button
       type="button"
     >
@@ -15,9 +13,7 @@ exports[`Buttons should render correctly 1`] = `
       </span>
     </button>
   </li>
-  <li
-    key="short_id_2"
-  >
+  <li>
     <button
       type="button"
     >

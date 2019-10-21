@@ -8,12 +8,16 @@ stories.add(
 	'Basic structure',
 	() => (
 		<Buttons>
-			<button type="button">
-				<span>Button One</span>
-			</button>
-			<button type="button">
-				<span>Button Two</span>
-			</button>
+			<li>
+				<button type="button">
+					<span>Button One</span>
+				</button>
+			</li>
+			<li>
+				<button type="button">
+					<span>Button Two</span>
+				</button>
+			</li>
 		</Buttons>
 	),
 	{
@@ -25,12 +29,16 @@ stories.add(
 	'Joined buttons',
 	() => (
 		<Buttons className="ts-t-t ts-join">
-			<button type="button">
-				<span>Button One</span>
-			</button>
-			<button type="button">
-				<span>Button Two</span>
-			</button>
+			<li>
+				<button type="button">
+					<span>Button One</span>
+				</button>
+			</li>
+			<li>
+				<button type="button">
+					<span>Button Two</span>
+				</button>
+			</li>
 		</Buttons>
 	),
 	{
