@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import ShortID from 'shortid';
 
 const Buttons = ({ children, ...props }) => {
 	return (
 		<menu data-ts="Buttons" {...props}>
-			{children.map(child => (
-				<li key={ShortID.generate()}>{child}</li>
-			))}
+			{React.Children.map(children, child =>
+				React.isValidElement(child) ? <li>{child}</li> : null
+			)}
 		</menu>
 	);
 };
